@@ -34,12 +34,6 @@ def woof(BARK_TOKEN, message):
 	data = {"message" : message}
 	request = requests.post(url, json=data, headers=headers)
 
-	'''
-	preconditions:
-		@BARK_TOKEN is a valid Bark Patner API Token
-	postconditions:
-		returns the response 
-	'''
 	if request.status_code == 200:
 		return request.text
 	else:
