@@ -7,7 +7,7 @@ setup(
   author = 'Aaron Thomas',
   author_email = '1d20m6@gmail.com',
   url = 'https://github.com/Metruption/pyBark',
-  download_url = 'https://github.com/Metruption/pyBark/archive/v1.2.tar.gz',
+  download_url = 'https://github.com/Metruption/pyBark/archive/v1.5.tar.gz',
   keywords = [],
   classifiers = [],
 )
